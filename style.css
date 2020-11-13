@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 15vh 7vh 1fr 10vh;
+}
+
+header {
+  background-color: 466078;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: lightsalmon;
+}
+
+footer {
+  background-color: gray;
+}
+
+h1 {
+  color: ivory;
+}
