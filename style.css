@@ -1,3 +1,9 @@
+:root {
+  --turqoise: #a0d1d7;
+  --blue-grey: #64859b;
+  --dark-blue: #466078;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,21 +19,34 @@ body {
   grid-template-rows: 15vh 7vh 1fr 10vh;
 }
 
+main {
+  display: grid;
+  grid-template-rows: 40vh 40vh 40vh 40vh;
+  background-color: violet;
+}
+
+#kampanjer {
+  background-color: pink;
+}
+
 header {
-  background-color: lightpink;
+  background-color: var(--turqoise);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 nav {
-  background-color: lightsalmon;
+  background-color: var(--blue-grey);
 }
 
 footer {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 h1 {
-  color: ivory;
+  color: white;
+}
+h2 {
+  color: white;
 }
