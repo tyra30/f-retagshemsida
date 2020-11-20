@@ -21,40 +21,59 @@ body {
 
 main {
   display: grid;
-  grid-template-rows: 70vh 40vh 40vh 40vh;
-  background-color: white;
+  grid-template-rows: 70vh 60vh 40vh 60vh;
+  background-color: black;
 }
 
 #kampanjer {
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #Smallabout {
-  background-color: white;
+  color: white;
   margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#Bestsellers {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Specialist {
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
 }
 
 header {
-  background-color: var(--turqoise);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 nav {
-  background-color: var(--blue-grey);
+  background-color: lightgray;
 }
 
 footer {
   background-color: lightgray;
 }
 
-h1 {
+h3 {
   color: white;
+  padding-top: 100px;
+  margin-left: 150px;
+  font-size: 40px;
+  text-align: left;
 }
-h2 {
-  color: white;
+
+h4 {
+  font-size: 30px;
 }
