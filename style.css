@@ -16,12 +16,12 @@ html {
 body {
   min-height: 100%;
   display: grid;
-  grid-template-rows: 15vh 7vh 1fr 10vh;
+  grid-template-rows: 15vh 7vh 1fr 20vh;
 }
 
 main {
   display: grid;
-  grid-template-rows: 70vh 60vh 40vh 60vh;
+  grid-template-rows: 70vh 60vh 30vh 70vh;
   background-color: black;
 }
 
@@ -64,11 +64,14 @@ nav {
 
 footer {
   background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h3 {
   color: white;
-  padding-top: 100px;
+  padding-top: 50px;
   margin-left: 150px;
   font-size: 40px;
   text-align: left;
