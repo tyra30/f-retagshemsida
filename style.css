@@ -21,12 +21,20 @@ body {
 
 main {
   display: grid;
-  grid-template-rows: 40vh 40vh 40vh 40vh;
-  background-color: violet;
+  grid-template-rows: 70vh 40vh 40vh 40vh;
+  background-color: white;
 }
 
 #kampanjer {
-  background-color: pink;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Smallabout {
+  background-color: white;
+  margin-top: 20px;
 }
 
 header {
