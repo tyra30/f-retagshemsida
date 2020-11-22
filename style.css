@@ -15,7 +15,7 @@ body {
 
 main {
   display: grid;
-  grid-template-rows: 90vh 75vh 40vh 70vh;
+  grid-template-rows: 90vh 72vh 60vh 80vh;
   background-color: black;
 }
 
@@ -38,6 +38,15 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
 }
 
 #Specialist {
@@ -67,7 +76,6 @@ main {
 }
 
 #foundation {
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,11 +106,6 @@ nav {
   font-family: "Oswald";
 }
 
-img {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 footer {
   background-color: lightgray;
   display: flex;
@@ -125,7 +128,7 @@ h3 {
   color: black;
   padding-top: 80px;
   margin-left: 100px;
-  font-size: 50px;
+  font-size: 70px;
   text-align: left;
   font-family: "Oswald";
 }
@@ -189,7 +192,7 @@ p {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgb(99, 99, 99);
 }
 
 .dropdown-content {
